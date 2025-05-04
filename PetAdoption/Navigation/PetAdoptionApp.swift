@@ -11,7 +11,7 @@ import SwiftUI
 struct PetAdoptionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView() // Uses a TabView for navigation
         }
     }
 }
